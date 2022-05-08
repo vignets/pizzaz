@@ -65,11 +65,9 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
 
 # dotenv environment variables file
-# .env
+.env
 .env.test
 !.env.production
 
@@ -111,7 +109,6 @@ dist
 .DS_Store
 
 # Lock files
-yarn.lock
 package-lock.json
 
 .yarn/*

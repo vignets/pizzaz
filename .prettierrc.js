@@ -7,5 +7,5 @@ module.exports = {
   endOfLine: "lf",
   bracketSpacing: true,
   printWidth: 80,
-  tailwindConfig: "./packages/client/tailwind.config.js",
+  tailwindConfig: "./client/tailwind.config.js",
 };
