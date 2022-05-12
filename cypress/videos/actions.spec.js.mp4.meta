@@ -1,0 +1,21 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=7477
+END=15136
+title=pizzaz's pizzas app renders all the pizzas
+[CHAPTER]
+TIMEBASE=1/1000
+START=20713
+END=22809
+title=pizzaz's pizzas app can add or remove item
+[CHAPTER]
+TIMEBASE=1/1000
+START=18412
+END=24935
+title=pizzaz's pizzas app places order
+[CHAPTER]
+TIMEBASE=1/1000
+START=25403
+END=31492
+title=pizzaz's pizzas app order summary

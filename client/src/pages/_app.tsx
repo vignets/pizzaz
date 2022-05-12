@@ -2,6 +2,7 @@ import type { AppProps } from "next/app";
 import React from "react";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
+import { NotificationsProvider } from "@mantine/notifications";
 import { mantineTheme } from "@/styles/theme";
 import "../styles/global.css";
 // Use the <SessionProvider> to improve performance and allow components that call
@@ -18,7 +19,9 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <MantineProvider {...mantineTheme}>
-        <Component {...pageProps} />
+        <NotificationsProvider position="top-right">
+          <Component {...pageProps} />
+        </NotificationsProvider>
       </MantineProvider>
     </>
   );

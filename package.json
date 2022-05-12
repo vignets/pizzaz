@@ -5,10 +5,11 @@
   "main": "index.js",
   "license": "ISC",
   "scripts": {
-    "clean": "yarn workspaces foreach run clean && del-cli .build-cache",
-    "build": "yarn workspaces foreach run build",
-    "start": "yarn workspace foreach -pvi run start",
-    "dev": "yarn workspaces foreach -pvi run dev"
+    "dev": "yarn workspaces foreach -pvi run dev",
+    "build": "yarn workspace client run build",
+    "start": "yarn workspaces foreach -pvi run start",
+    "cypress": "cypress open",
+    "cypress:ci": "cypress run"
   },
   "private": true,
   "workspaces": [
@@ -19,17 +20,13 @@
     "node": "16.x"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^12.1.6",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
+    "@yarnpkg/sdks": "^3.0.0-rc.5",
+    "cypress": "^9.6.1",
     "del-cli": "^4.0.1",
     "eslint": "^8.15.0",
-    "eslint-config-next": "^12.1.6",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-jest": "^26.1.5",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "prettier-plugin-tailwindcss": "^0.1.10",

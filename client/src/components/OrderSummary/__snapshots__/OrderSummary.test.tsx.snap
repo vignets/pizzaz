@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order Summary renders counter 1`] = `
+<div>
+  <div
+    class="fixed left-1/2 -translate-x-1/2 bottom-0 w-full max-w-4xl"
+    data-testid="order-summary"
+  >
+    <div
+      class="h-full bg-indigo-600 text-white mx-4 sm:mx-6 lg:mx-8 rounded-t-2xl px-6 py-4"
+    >
+      <div>
+        <h2
+          class="font-bold text-2xl"
+        >
+          Order Summary
+        </h2>
+        <div
+          class="flex justify-between items-end"
+        >
+          <div
+            class="flex items-baseline space-x-2"
+          >
+            <p
+              class="text-sm font-semibold"
+            >
+              Total:
+            </p>
+            <p
+              class="text-2xl font-extrabold "
+              data-testid="total-price"
+            >
+              <span
+                class="font-medium"
+              >
+                $
+              </span>
+              10
+              <span
+                class="text-lg"
+              >
+                .
+                00
+              </span>
+            </p>
+          </div>
+          <button
+            class="mantine-Button-default mantine-Button-root text-gray-800 mantine-aywjzy"
+            type="button"
+          >
+            <div
+              class="mantine-3xbgk5 mantine-Button-inner"
+            >
+              <span
+                class="mantine-qo1k2 mantine-Button-label"
+              >
+                Place Order 
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
