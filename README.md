@@ -19,16 +19,31 @@ Clone the project
 git clone git@github.com:AmbulnzLLC/frontend-challenge.git && cd frontend-challenge/
 ```
 
-Install the dependencies
+There's no need to install dependencies, Since this project utilizes zero-install fetaure from yarn.
+
+
+### For starting development server
 
 ```bash
-npm install
+yarn dev
 ```
 
-Start the server
+### For starting development server
 
 ```bash
-node server.js
+yarn dev
+```
+
+### Production build
+
+```bash
+yarn build
+```
+
+### Start production server
+
+```bash
+yarn start
 ```
 
 Visit [http://localhost:8080](http://localhost:8080)
